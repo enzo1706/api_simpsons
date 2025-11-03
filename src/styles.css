@@ -1,0 +1,87 @@
+    body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fdf36e;
+    margin: 0;
+    padding: 0;
+    }
+
+    header {
+    background-color: #ffcc00;
+    padding: 20px;
+    color: #333;
+    }
+
+    #controls {
+    margin: 20px;
+    }
+
+    button {
+    background-color: #ff9900;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+    button:hover {
+    background-color: #ff6600;
+    }
+
+    #loading {
+    margin: 20px;
+    }
+
+    .spinner {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #ff6600;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+    animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    }
+
+    #error {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    }
+
+    #characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    }
+
+    .character-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .character-card img {
+    width: 100%;
+    border-radius: 10px;
+    }
+
+    .character-card h3 {
+    margin: 10px 0 5px;
+    }
+
+    .character-card p {
+    color: #555;
+    }
